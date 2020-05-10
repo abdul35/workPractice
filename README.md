@@ -1,4 +1,4 @@
 # layouting web-pages
-& technology
-* BEM
-* Responsiv Design
+* technology
+1. BEM
+2. Responsiv Design
