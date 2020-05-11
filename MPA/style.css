@@ -8,17 +8,15 @@
     box-sizing: border-box;
     font-family: sans-serif;
     color: black;
-    /* overflow-x: hidden; */
 }
 
+html {
+    font-size: 1em;
+}
+ 
 .container {
     width: 100%;
-    max-width: 90vw; 
-    margin: 0 auto;
+    max-width: 1200px; 
+    margin: auto;
 }
-
-.link {
-    font-style: 1.2em;
-}
-
 
