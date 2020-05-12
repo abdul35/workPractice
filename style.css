@@ -1,0 +1,72 @@
+@import './styles/header.css';
+@import '/styles/fonts.css';
+
+*, *::after, *::before {
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: black;
+    overflow-x: hidden;
+}
+
+html {
+    font-size: 1em;
+}
+ 
+.container {
+    width: 100%;
+    max-width: 1200px; 
+    margin: auto;
+}
+
+@media screen and (max-width: 1250px) {
+    .container {
+        max-width: 90%;
+        margin: auto;
+    }
+}
+
+
+/* index.html [section > hero]  begin  */
+
+.hero__inner {
+    height: 85vh;
+    background-image: url(/images/main-bg.png);
+    margin: 0 24px;
+    background-size: 100% 100%;
+}
+
+.hero__desc {
+    display: flex;
+    align-items: flex-end;
+    height: 95%;
+}
+
+.hero__title {
+    font-family: 'GothamProBold', sans-serif;
+    font-size: 52px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.hero__subtitle {
+    font-family: "GothamProMedium", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.calc-btn {
+    position: absolute;
+    right: 0;
+    top: 35%;
+    /* display: flex; */
+    /* z-index: 11; */
+}
+
+/* index.html [section > hero]  end */
